@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700;800&display=swap');
+
+:root {
+    --ff-family: 'Manrope', sans-serif;
+    --primary-color: rgba(29, 34, 84, 1);
+    --secondary-color: rgba(106, 36, 255, 1);
+    --text-color: rgba(163, 163, 163, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(29, 34, 84, 1);
+    font-family: var(--ff-family);
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.65;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px auto; 
+    height: 100vh;
+    width: 70%;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.personal-info {
+    
+    padding: 48px 0 0;
+}
+
+
+.personal-info > h1 {
+    color: rgba(106, 36, 255, 1);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.personal-info > img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+table {
+  margin: 25px auto;
+  width: 300px;
+  height: 250px;
+}
+
+table .info {
+    text-align: left;
+    padding: 10px;
+    color: rgba(163, 163, 163, 1);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    width: 150px;
+}
+
+table .info-details {
+    padding-left: 5px;
+    font-weight: 500;
+    opacity: 0.65;
+    font-size: 1.2rem;
+    width: 150px;
+}
+
+.first-section .quote {
+    display: flex;
+    /* width: 380px; */
+    padding: 32px;
+    gap: 8px;
+}
+
+.quote > span {
+    font-size: 80px;
+    color: var(--secondary-color);
+}
+
+.quote > p {
+    width: 280px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.second-section .align {
+    padding: 20px;
+    width: 700px;
+}
+
+.second-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.second-section  .bio > p {
+    width: 607px;
+}
+
+.second-section .frustrations {
+    padding-bottom: 15px;
+}
+
+.second-section .social-media > h3 {
+    margin-bottom: 40px;
+}
+
+.social-media__images {
+    margin-bottom: 10px;
+}
+
+.social-media__images > img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.platform > p {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
